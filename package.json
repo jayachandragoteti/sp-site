@@ -1,0 +1,37 @@
+{
+  "name": "complaint-system",
+  "version": "1.0.0",
+  "description": "A simple Complaint System with Auth using Passport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "keywords": [
+    "complaint",
+    "system"
+  ],
+  "author": "Lalith Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "dotenv": "^16.0.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  },
+  "devDependencies": {
+    "@slidewave/gitignore-include": "^1.0.5",
+    "nodemon": "^2.0.16",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
